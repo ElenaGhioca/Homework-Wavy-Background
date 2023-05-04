@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-image: url(./images/wavyback1.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 35%;
+}
+p {
+  text-align: center;
+  color: gray;
+  margin-bottom: -10px;
+}
+.images {
+  display: flex;
+  gap: 20px;
+}
+img {
+  height: 64x;
+  width: 64px;
+}
